@@ -1,0 +1,16 @@
+# Test
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.15.3"}
+])
+```
+
+## Section
+
+```elixir
+text = Kino.Text.new("Hello!")
+frame = Kino.Frame.new()
+Kino.Frame.render(frame, text)
+frame
+```
