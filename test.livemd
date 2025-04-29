@@ -1,3 +1,5 @@
+<!-- livebook:{"app_settings":{"auto_shutdown_ms":5000,"multi_session":true,"output_type":"rich","slug":"test-app"}} -->
+
 # Test
 
 ```elixir
@@ -9,8 +11,10 @@ Mix.install([
 ## Section
 
 ```elixir
-text = Kino.Text.new("Hello!")
+text = Kino.Text.new("Hello, hello!")
 frame = Kino.Frame.new()
 Kino.Frame.render(frame, text)
 frame
 ```
+
+<!-- livebook:{"offset":304,"stamp":{"token":"XCP.jvg_sNWvfuz_Sd-4JKm3tHAA5QPXO9B0tkik_jwIGpW1H5nuLubl793d8f6MvuyFWJEk1tklcIRZ7zWxzO50kgpX9dVER_g-JuoqBWQogxDR2lQh83P3NWNj","version":2}} -->
