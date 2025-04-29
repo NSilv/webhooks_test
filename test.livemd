@@ -11,7 +11,7 @@ Mix.install([
 ## Section
 
 ```elixir
-text = Kino.Text.new("Hello, dafuq!")
+text = Kino.Text.new("Hello, test!")
 frame = Kino.Frame.new()
 Kino.Frame.render(frame, text)
 frame
